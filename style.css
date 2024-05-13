@@ -1,0 +1,2278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;500&family=Poppins&family=Roboto+Slab:wght@700&family=Sacramento&family=Syne:wght@400;800&display=swap');
+* {
+    font-family: 'SamsungOne', arial, sans-serif;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.samsung-logo {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    left: 60px;
+    top: 24px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.center-menu {
+    height: 100%;
+    list-style: outside none none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+}
+
+.right-menu {
+    height: 100%;
+    list-style: outside none none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+}
+
+.menu-text {
+    padding: 0 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-text:hover {
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.profile-logo {
+    width: 35px;
+    height: 35px;
+}
+
+.slider {
+    margin-left: 40px;
+}
+
+.slider-main-text {
+    /* Зустрічайте нову еру Samsung AI TV */
+
+    position: absolute;
+    width: 525px;
+    height: 120px;
+    margin-left: 80px;
+    top: 240px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+
+.slider-text {
+    /* +4 роки гарантії та саундбар у подарунок */
+
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 300px;
+    font-size: 18px;
+    font-weight:normal;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-link {
+    /* Передзамовити */
+
+    position: absolute;
+    width: 102px;
+    height: 16px;
+    margin-left: 80px;
+    margin-top: 360px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.slider-button {
+    /* Rectangle */
+    
+    position: absolute;
+    margin-left: 40px;
+    width: 151px;
+    height: 40px;
+    left: 203px;
+    top: 430px;
+    background: #000000;
+    border-radius: 20px;
+    border: #FFFFFF;
+    
+    /* Дізнатися більше */
+    
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.slider-button:hover {
+    opacity: 50%;
+}
+
+.top-offers-title {
+    /* Найкращі пропозиції інтернет-магазину */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    margin-left: 40px;
+    top: 760px;
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.top-offers {
+    height: 790px;
+}
+
+.offers-btn {
+    position: relative;
+    height: 58px;
+    text-align: center;
+    white-space: nowrap;
+    height: 64px;
+    top: 120px; 
+    margin-left: 40px;
+}
+
+.btn-offers-text-underline {
+    /* Нові пропозиції */
+
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 48px;
+    text-decoration-line: underline;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.btn-offers-text {
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 48px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.btn-offers-text:hover {
+    opacity: 50%;
+}
+
+.offers {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.offer-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+.new-line {
+    /* Rectangle */
+    
+    position: absolute;
+    background: #2187FD;
+    border-radius: 20px;
+    margin-top: 24px;
+    
+    /* Новинка */
+
+    width: 74px;
+    height: 18px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.offer-text-1 {
+    /* Galaxy S24 | S24+ */
+    
+    position: absolute;
+    width: 400px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 555px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.offer-subtext-1 {
+    /* Вигода до 5 100 грн */
+
+    position: absolute;
+    width: 147px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 610px;
+    margin-left: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.offer-2 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 740px;
+    top: 890px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.offer-text-2 {
+    /* Galaxy S23 FE */
+
+    position: absolute;
+    width: 298px;
+    height: 23px;
+    margin-top: 220px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.offer-subtext-2 {
+/* Вигода до 2 900 грн */
+
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    margin-top: 270px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.offer-3 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1086px;
+    top: 890px;
+    margin-left: 36px;
+    border-radius: 20px;
+}
+
+.exclusive-line {
+    /* Rectangle */
+
+    position: absolute;
+    margin-top: 24px;
+    background: #00838F;
+    border-radius: 20px;
+
+    /* Ексклюзивно */
+
+    width: 107px;
+    height: 17px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.offer-text-3 {
+    /* Запас засобів Persil та Silan у подарунок */
+
+    position: absolute;
+    width: 298px;
+    height: 47px;
+    margin-top: 215px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;    
+}
+
+.offer-subtext-3 {
+    /* при купівлі пральних машин */
+
+    position: absolute;
+    width: 168px;
+    height: 15px;
+    margin-top: 275px;
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.offer-4 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 740px;
+    top: 1240px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.offer-text-4 {
+    /* Нова ера Samsung AI TV */
+
+    position: absolute;
+    width: 242px;
+    height: 19px;
+    margin-top: 215px;
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.offer-subtext-4 {
+    /* Саундбар в подарунок та 4 роки додаткової гарантії */
+
+    position: absolute;
+    width: 290px;
+    height: 12px;
+    margin-top: 255px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.offer-5 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1086px;
+    top: 1240px;
+    margin-left: 36px;
+    border-radius: 20px;
+}
+
+.value-line {
+    /* Rectangle */
+
+    position: absolute;
+    margin-top: 24px;
+    background: #00838F;
+    border-radius: 20px;
+
+    /* Від 1980 грн/міс */
+
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.offer-text-5 {
+    /* Вигода 10% та портативна батерея у подарунок */
+
+    position: absolute;
+    width: 298px;
+    height: 37px;
+    margin-top: 210px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.offer-subtext-5 {
+    /* При купівлі The Freestyle */
+
+    position: absolute;
+    width: 290px;
+    height: 12px;
+    margin-top: 255px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+.mobile-devices {
+    position: absolute;
+    width: 1392px;
+    height: 810px;
+    top: 1550px;
+    margin-left: 40px;
+}
+
+.mobile-devices-title {
+    /* Мобільні пристрої */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    top: 110px;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    width: 100%;
+    max-width: 1440px;
+}
+.mobile-devices-btn {
+    position: relative;
+    height: 58px;
+    text-align: center;
+    white-space: nowrap;
+    height: 64px;
+    top: 180px;
+    margin-left: 40px;  
+}
+
+.btn-mobile-devices-text-underline {
+    /* Galaxy S24 Ultra */
+
+    background-color: #F5F5F5;
+    color: #000;
+    padding-right: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    border: none;
+}
+
+.btn-mobile-devices-text {
+    background-color: #F5F5F5;
+    color: #000;
+    padding-right: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-mobile-devices-text:hover {
+    opacity: 50%;
+}
+
+.mobile-devices-name {
+    /* Galaxy S24 Ultra */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    margin-top: 660px;
+    margin-left: 520px;
+    font-weight: 600;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.more-info {
+    /* Дізнатися більше */
+
+    position: absolute;
+    width: 131px;
+    height: 17px;
+    margin-top: 730px;
+    margin-left: 600px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.btn-buy {
+    /* Rectangle */
+
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    margin-top: 720px;
+    margin-left: 750px;
+    background: #000000;
+    border-radius: 20px;
+
+    /* Купити */
+
+    position: absolute;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-buy:hover {
+    opacity: 50%;
+}
+
+.TV-and-audio {
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    top: 2360px;
+    margin-left: 40px;
+}
+
+.TV-and-audio-title {
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    top: 118px;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.TV-and-audio-btn {
+    position: relative;
+    height: 58px;
+    text-align: center;
+    white-space: nowrap;
+    height: 64px;
+    top: 188px;
+    margin-left: 40px;
+}
+
+.btn-TV-and-audio-text-underline {
+    /* Neo QLED 8K */
+
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 48px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    background: 0;
+    border: none;
+}
+
+.btn-TV-and-audio-text {
+    padding-right: 48px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #FFFFFF;
+    background: 0;
+    border: none;
+}
+
+.btn-TV-and-audio-text:hover {
+    opacity: 50%;
+}
+
+.TV-and-audio-name {
+    /* Пориньте у дивовижний світ зображення */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    margin-top: 630px;
+    margin-left: 250px;
+    font-weight:bolder;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.TV-and-audio-subtext {
+    /* Neo QLED 8K від 3 600 грн/міс, кредит 0% до 20 місяців. Встановимо за 1 грн */
+
+    position: absolute;
+    width: 614px;
+    height: 19px;
+    margin-top: 690px;
+    margin-left: 450px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.white-more-info {
+    /* Дізнатися більше */
+
+    position: absolute;
+    width: 131px;
+    height: 17px;
+    margin-top: 735px;
+    margin-left: 600px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.white-btn-buy {
+    /* Rectangle */
+
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    margin-top: 725px;
+    margin-left: 750px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    /* Купити */
+
+    position: absolute;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    border: none;
+}
+
+.white-btn-buy:hover {
+    opacity: 80%;
+}
+
+.for-home {
+    position: absolute;
+    width: 1440px;
+    height: 810px;
+    top: 3170px;
+    margin-left: 40px;
+}
+
+.for-home-title {
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    top: 110px;
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    width: 100%;
+    max-width: 1440px;    
+}
+
+.for-home-btn {
+    position: relative;
+    height: 58px;
+    text-align: center;
+    white-space: nowrap;
+    height: 64px;
+    top: 180px;
+    margin-left: 40px;     
+}
+
+.btn-for-home-text-underline {
+    /* BESPOKE Jet™ AI */
+
+    color: #000;
+    padding-right: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    border: none;
+    background: 0;
+}
+
+.btn-for-home-text {
+    color: #000;
+    padding-right: 48px;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    background: 0;
+}
+
+.btn-for-home-text:hover {
+    opacity: 50%;
+}
+
+.for-home-name {
+    /* BESPOKE Jet AI */
+    
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    margin-top: 640px;
+    margin-left: 530px;
+    font-weight: 600;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.for-home-subtext {
+    /* Від 4 000 грн/міс кредит 0% до 12 місяців */
+
+    position: absolute;
+    width: 334px;
+    height: 19px;
+    margin-top: 700px;
+    margin-left: 550px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.for-home-more-info {
+    /* Дізнатися більше */
+
+    position: absolute;
+    width: 131px;
+    height: 17px;
+    margin-top: 740px;
+    margin-left: 600px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.for-home-btn-buy {
+    /* Rectangle */
+
+    position: absolute;
+    width: 94px;
+    height: 40px;
+    margin-top: 730px;
+    margin-left: 745px;
+    background: #000000;
+    border-radius: 20px;
+
+    /* Купити */
+
+    position: absolute;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.for-home-btn-buy:hover {
+    opacity: 50%;
+}
+
+.recommended-products {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.recommended-products-title {
+    /* Рекомендовані продукти */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    left: 24px;
+    top: 2578px;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.recommended-products-1 {
+    position: absolute;
+    width: 264px;
+    height: 650px;
+    left: 174px;
+    top: 2670px;
+    padding: 48px 0 24px 0;
+    background: #F7F7F7;
+    border-radius: 20px;
+}
+
+.img-product {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.recommended-products-name-1 {
+    /* Galaxy S24 Ultra */
+
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    margin-left: 75px;
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.recommended-products-color-name-1 {
+    /* Колір:Титановий фіолетовий */
+
+    position: absolute;
+    width: 191px;
+    height: 15px;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.color-name {
+    font-weight: bold;
+    display: flex;
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+.recommended-products-choice-color-1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-color-product1-1 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    margin-right: 20px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.9px solid #000;
+    background-color: #4D4E5F;
+}
+
+.choice-color-product1-2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #ACA49B;
+}
+
+.choice-color-product1-3 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #F0E1B9;
+}
+
+.recommended-products-size {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    margin-top: 20px;
+    justify-content:space-around;
+}
+
+.size-product1-1 {
+    /* 512 ГБ */
+
+    position: absolute;
+    width: 45px;
+    height: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size-product1-2 {
+    /* 256 ГБ */
+
+    width: 45px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+
+.size-product1-3 {
+    /* 1 ТБ */
+
+    width: 60px;
+    height: 30px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.price-1 {
+    /* 64 799 ₴ */
+
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    font-weight: 600;
+    margin-top: 46px;
+    margin-left: 95px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.discount-price-1 {
+    /* 71 999 ₴ */
+
+    position: absolute;
+    width: 64px;
+    height: 10px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-left: 65px;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #000000;
+}
+
+.profit-1 {
+    /* Вигода 7 200 ₴ */
+
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    margin-top: 80px;
+    margin-left: 121px;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #006BEA;
+}
+
+.price-guarantee-1 {
+    /* Від 2 592 ₴/міс на 25 міс або */
+
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    margin-top: 100px;
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.financial-calculator-1 {
+    /* Фінансовий калькулятор */
+
+    position: absolute;
+    width: 140px;
+    height: 11px;
+    margin-top: 120px;
+    margin-left: 64px;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #006BEC;
+}
+
+.btn-price-1 {
+    /* Rectangle */
+
+    position: absolute;
+    width: 232px;
+    height: 38px;
+    margin-top: 160px;
+    margin-left: 16px;
+    background: #000000;
+    border-radius: 20px;
+    border: none;
+
+    /* Купити */
+
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.btn-price-1:hover {
+    opacity: 50%;
+}
+
+.recommended-products-2 {
+    position: absolute;
+    width: 264px;
+    height: 650px;
+    left: 462px;
+    top: 2670px;
+    padding: 48px 0 24px 0;
+    background: #F7F7F7;
+    border-radius: 20px;
+}
+
+.recommended-products-name-2 {
+    /* Саундбар преміумкласу Q-серії HW-Q930C */
+
+    position: absolute;
+    width: 255px;
+    height: 38px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.recommended-products-color-name-2 {
+    /* Колір:Чорний */
+
+    position: absolute;
+    width: 191px;
+    height: 15px;
+    margin-left: 70px;
+    margin-top: 62px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.recommended-products-choice-color-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-color-product-2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.9px solid gray;
+    background-color: black;
+}
+
+.price-2 {
+    /* 25 999 ₴*/
+
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    font-weight: 600;
+    margin-top: 96px;
+    margin-left: 95px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;   
+}
+
+.discount-price-2 {
+    /* 31 999 ₴ */
+
+    position: absolute;
+    width: 64px;
+    height: 10px;
+    font-weight: 400;
+    margin-top: 130px;
+    margin-left: 65px;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #000000;    
+}
+
+.profit-2 {
+    /* Вигода 6 000 ₴ */
+
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    margin-top: 130px;
+    margin-left: 121px;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #006BEA;    
+}
+
+.price-guarantee-2 {
+    /* Від 1 300 ₴/міс на 20 міс або */
+
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    margin-top: 150px;
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.financial-calculator-2 {
+    /* Фінансовий калькулятор */
+
+    position: absolute;
+    width: 140px;
+    height: 11px;
+    margin-top: 170px;
+    margin-left: 64px;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #006BEC;   
+}
+
+.btn-price-2 {
+    /* Rectangle */
+
+    position: absolute;
+    width: 232px;
+    height: 38px;
+    margin-top: 210px;
+    margin-left: 16px;
+    background: #000000;
+    border-radius: 20px;
+    border: none;
+
+
+    /* Купити */
+
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.btn-price-2:hover {
+    opacity: 50%;
+}
+
+.recommended-products-3 {
+    position: absolute;
+    width: 264px;
+    height: 650px;
+    left: 750px;
+    top: 2670px;
+    padding: 48px 0 24px 0;
+    background: #F7F7F7;
+    border-radius: 20px;    
+}
+
+.recommended-products-color-name-3 {
+    /* Колір:М'ятний */
+
+    position: absolute;
+    width: 191px;
+    height: 15px;
+    margin-left: 70px;
+    margin-top: 62px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.choice-color-product3-1 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    margin-right: 20px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.9px solid #000;
+    background-color: #CAD9D3;
+}
+
+.choice-color-product3-2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #514B79;
+}
+
+.choice-color-product3-3 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #53565A;
+}
+
+.choice-color-product3-4 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #F0EAE0;
+}
+
+.recommended-products-size-3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    margin-top: 20px;
+}
+
+.size-product3-1 {
+    /* 128 ГБ */
+
+    width: 45px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+}
+
+.size-product3-2 {
+    /* 256 ГБ */
+
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.price-3 {
+    /* 28 999 ₴ */
+
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-left: 95px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.price-guarantee-3 {
+    /* Від 1 450 ₴/міс на 20 міс або */
+
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    margin-top: 85px;
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.financial-calculator-3 {
+    /* Фінансовий калькулятор */
+
+    position: absolute;
+    width: 140px;
+    height: 11px;
+    margin-top: 105px;
+    margin-left: 64px;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #006BEC;    
+}
+
+.recommended-products-4 {
+    position: absolute;
+    width: 264px;
+    height: 650px;
+    left: 1038px;
+    top: 2670px;
+    padding: 48px 0 24px 0;
+    background: #F7F7F7;
+    border-radius: 20px;    
+}
+
+.recommended-products-name-4 {
+    /* Jet Bot VR30T80313W/UK */
+
+    position: absolute;
+    width: 255px;
+    height: 38px;
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;    
+}
+
+.recommended-products-color-name-4 {
+    /* Колір:Білий */
+
+    position: absolute;
+    width: 191px;
+    height: 15px;
+    margin-left: 70px;
+    margin-top: 66px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.recommended-products-choice-color-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.choice-color-product-4 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 95px;
+    padding: 0 8px;
+    border-radius: 50%;
+    border: 1.9px solid gray;
+    background-color: #FFFFFF;    
+}
+
+.price-4 {
+    /* 9 499 ₴ */
+
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    font-weight: 600;
+    margin-top: 96px;
+    margin-left: 102px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;   
+}    
+
+.discount-price-4 {
+    /* 17 799 ₴ */
+
+    position: absolute;
+    width: 64px;
+    height: 10px;
+    font-weight: 400;
+    margin-top: 130px;
+    margin-left: 65px;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #000000;        
+}
+
+.profit-4 {
+    /* Вигода 8 300 ₴ */
+
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    margin-top: 130px;
+    margin-left: 121px;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #006BEA;      
+}
+
+.price-guarantee-4 {
+    /* Від 792 ₴/міс на 12 міс або */
+
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    margin-top: 150px;
+    margin-left: 46px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;        
+}
+
+.next-products {
+/* image 17 */
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1400px;
+    top: 2980px;
+}
+
+.explore {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;    
+}
+
+.explore-title {
+    /* Explore #DoWhatYouCant */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    left: 24px;
+    top: 3407px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.explore-img {
+    position: absolute;
+    width: 684px;
+    height: 684px;
+    left: 20px;
+    top: 3530px;
+    border-radius: 20px;
+}
+
+.explore-line {
+    /* Line */
+    position: absolute;
+    width: 612px;
+    top: 3600px;
+    height: 0px;
+    left: 730px;
+    border: 1.6px solid #000000;
+}
+
+.explore-number-1 {
+    /* 01 */
+
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 760px;
+    top: 3640px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.explore-name-1 {
+    /* Почувайтеся вільно із Freestyle */
+
+    position: absolute;
+    width: 430px;
+    height: 29px;
+    left: 825px;
+    top: 3640px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.explore-more-info {
+    /* Дізнатися більше */
+
+    position: absolute;
+    width: 137px;
+    height: 17px;
+    left: 829px;
+    top: 3700px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.explore-line-2 {
+    /* Line 2 */
+
+    position: absolute;
+    width: 479px;
+    height: 0px;
+    left: 829px;
+    top: 3750px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.explore-number-2 {
+    /* 02 */
+
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 760px;
+    top: 3790px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.explore-name-2 {
+    /* Що потрібно знати про технологію для нічної зйомки Nightography */
+
+    position: absolute;
+    width: 580px;
+    height: 29px;
+    left: 825px;
+    top: 3790px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.explore-number-3 {
+    /* 03 */
+
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 760px;
+    top: 3890px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;       
+}
+
+.explore-name-3 {
+    /* Як матеріали, з яких виготовлено ваш телефон, можуть допомогти у захисті наших океанів */
+
+    position: absolute;
+    width: 680px;
+    height: 29px;
+    left: 825px;
+    top: 3890px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;      
+}
+
+.explore-number-4 {
+    /* 04 */
+
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 760px;
+    top: 3990px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;      
+}
+
+.explore-name-4 {
+    /* Як Bespoke пасує до стилю життя кожної людини */
+
+    position: absolute;
+    width: 680px;
+    height: 29px;
+    left: 825px;
+    top: 3990px;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;     
+}
+
+.search-info {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-info-title {
+    /* Шукаєте ще щось? */
+
+    position: absolute;
+    width: 1392px;
+    height: 45px;
+    left: 24px;
+    top: 4367px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;  
+}
+
+.search-info-rectangle {
+    /* Rectangle */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 448px;
+    height: 50px;
+    left: 496px;
+    top: 4437px;
+    background: #F7F7F7;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+}
+
+.search-info-logo {
+    /* image 19 */
+
+    width: 43px;
+    height: 43px;
+    margin-left: 16px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-info-input {
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.search-info-website {
+    /* Пошук по сайту */
+
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #170000;
+    font-size: 18px;
+    background: 0;
+    border: 0;
+    outline: 0;    
+}
+
+.popular-searches-block {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popular-search-btn-1 {
+    /* Galaxy S24 Ultra  */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 450px;
+    top: 4505px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.popular-search-btn-1:hover, .popular-search-btn-2:hover, .popular-search-btn-3:hover, .popular-search-btn-4:hover, .popular-search-btn-5:hover {
+    opacity: 50%;
+}
+
+.popular-search-btn-2 {
+    /* Calaxy Fold5  */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    left: 580px;
+    top: 4505px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.popular-search-btn-3 {
+    /* QLED 8K */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 695px;
+    top: 4505px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+} 
+
+.popular-search-btn-4 {
+    /* QLED 8K */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    left: 795px;
+    top: 4505px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+} 
+
+.popular-search-btn-5 {
+    /* QuickDrive */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    left: 893px;
+    top: 4505px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.description-text {
+    /* * Ілюстративне зображення. Щоб користуватися деякими функціями штучного інтелекту (AI),
+    необхідно ввійти в обліковий запис Samsung Account. ... */
+
+    position: absolute;
+    flex-direction: column;
+    font-size: 12px;
+    max-width: 1440px;
+    width: 1200px;
+    height: 521px;
+    left: 127px;
+    top: 4600px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000;
+}
+
+.footer {
+    display: block;
+}
+
+.footer-more-info {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-info-title {
+    /* Продукти & Сервіси */
+
+    position: relative;
+    width: 228px;
+    height: 56px;
+    padding-top: 18px;
+    color: #000000;
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-info-list {
+    list-style: outside none none;
+}
+
+.footer-info-text {
+    display: block;
+    padding: 7px 24px;
+    line-height: 1.33;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-info-1 {
+    position: relative;
+    width: 287px;
+    height: 647px;
+    top: 5060px;
+    left: 60px;
+    padding-bottom: 32px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-info-2 {
+    position: relative;
+    width: 287px;
+    height: 647px;
+    top: 4413px;
+    left: 347px;
+    padding-bottom: 32px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-info-3 {
+    position: relative;
+    width: 287px;
+    height: 647px;
+    top: 3766px;
+    left: 634px;
+    padding-bottom: 32px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-info-4 {
+    position: relative;
+    width: 287px;
+    height: 647px;
+    top: 3119px;
+    left: 921px;
+    padding-bottom: 32px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-info-5 {
+    position: relative;
+    width: 287px;
+    height: 647px;
+    top: 2472px;
+    left: 1208px;
+    padding-bottom: 32px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-copyright {
+    /* Copyright © 1995-2024 SAMSUNG. Всі права захищено. Телефон: 0 800 503 081 */
+
+    position: absolute;
+    width: 546px;
+    height: 17px;
+    left: 84px;
+    top: 7270px;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.footer-line {
+    /* Line */
+
+    position: absolute;
+    width: 1440px;
+    left: 60px;
+    top: 7350px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-item {
+    position: absolute;
+    height: 64px;
+    padding-left: 24px;  
+}
+
+.change-language {
+    /* Україна/Українська */
+
+    position: relative;
+    width: 191px;
+    height: 17px;
+    left: 60px;
+    top: 2641px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-term-1 {
+    /* Конфіденційність */
+
+    position: absolute;
+    width: 121px;
+    height: 17px;
+    left: 280px;
+    top: 2633px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-term-2 {
+    /* Декларація */
+
+    position: absolute;
+    width: 121px;
+    height: 17px;
+    left: 410px;
+    top: 2633px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;    
+}
+
+.footer-term-3 {
+    /* Карта сайту */
+
+    position: absolute;
+    width: 121px;
+    height: 17px;
+    left: 510px;
+    top: 2633px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;       
+}
+
+.footer-term-4 {
+    /* Будьте в курсі подій */
+
+    position: absolute;
+    width: 121px;
+    height: 17px;
+    left: 1190px;
+    top: 2633px;
+    font-weight: 300;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;       
+}
+
+.footer-social-networks-1 {
+    /* image 20 */
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1328px;
+    top: 2629px;
+}
+
+.footer-social-networks-2 {
+    /* image 21 */
+
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    left: 1367px;
+    top: 2629px;
+}
+
+.footer-social-networks-3 {
+    /* image 22 */
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1406px;
+    top: 2629px;
+}
+
+.footer-social-networks-4 {
+    /* image 23 */
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1445px;
+    top: 2629px;
+}
+
+.contact-us {
+    /* Contact */
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    bottom: 90px;
+    right: 29px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 999;    
+    background-color: black;
+    border-radius: 80px;
+}
+
+.svg-contact {
+    width: 20px; 
+    height: 20px; 
+}
+
+.visible {
+    position: fixed;
+    display: block;
+    bottom: 20px;
+    right: 28px;
+    color: white;
+    background-color: #7F7F7F;
+    width: 55px;
+    height: 55px;
+    border-radius: 80px;
+}
+
+.visible:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.arrow-up {
+    width: 55px;
+    height: 55px;
+    border-radius: 80px;
+    opacity: 60%;
+}
+
+.arrow-up:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
